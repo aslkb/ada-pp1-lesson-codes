@@ -30,6 +30,8 @@ int main(){
         sum += a[z];
     }
 
+    // calculate the average and then find how many nums in array
+    // higher than the average
     float avg = sum/n;
     int above = 0; 
     
@@ -40,5 +42,8 @@ int main(){
     } 
     printf("Sum of all nums in your array is: %d\n", sum);
     printf("amount of nums that higher than the avg in array is: %d\n", above);
+
     return 0;
+
+
 }
