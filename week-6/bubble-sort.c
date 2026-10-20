@@ -12,8 +12,10 @@ int main(){
     }
 
     // function of bubble sort
-    // outer loop for re-executing inner loop while sort is done
+    // outer loop for re-executing inner loop to assure
+    // that largest element is in right place
     // inner loop for compare the pairs
+
     for (int pass = 1; pass < N; pass++){
         for (int i = 0; i < N-pass; i++){
             if (a[i] > a[i+1]){

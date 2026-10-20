@@ -1,5 +1,10 @@
 #include <stdio.h>
+
+// you can define variable value like that:
 # define N 5
+// this is a global varable!
+// but this var is not stored in memory, dont have a data type, and it cannot be changed
+
 int main(){
     int a[N] = {5,3,8,8,2};
 
