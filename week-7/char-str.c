@@ -22,6 +22,8 @@ int main(){
     printf("Type your name: ");
     scanf("%s", name); // here we dont use & to adress our scanf to variable, it already knows
     printf("Hello %s!\n", name);
+    // note that this code takes only ONE word
+    // e.g if you enter "ADA Student" it would just print "Hello ADA!"
 
     // basic string len counter
     // you see how we use \0 char to check that we reached to the end of our str?
