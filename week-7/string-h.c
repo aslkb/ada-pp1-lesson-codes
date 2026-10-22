@@ -14,8 +14,6 @@ int main(){
     char student[20];
     strcopy_new(name, student);
     
-
-
     // strcopy - for copying value from one variable to another
     char source[] = "C Programming";
     char destination[20];

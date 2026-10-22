@@ -27,7 +27,7 @@ int main(){
 
     // basic string len counter
     // you see how we use \0 char to check that we reached to the end of our str?
-    // keep in mind when we write \0 we need to write it with single quotes ('\0'), NOT DOUBLE! ("\0")\
+    // keep in mind when we write \0 we need to write it with single quotes ('\0'), NOT DOUBLE! ("\0")
 
     int len = 0;
     while (word[len] != '\0') len++;

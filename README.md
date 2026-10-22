@@ -22,6 +22,8 @@ if you want to run a program fast without hastling with [gcc](https://gcc.gnu.or
 
 `make week-2-math` as an example runs the `math.c` file under the `week-2/` folder
 
+run `make all` to compile every C file without running the programs.
+
 ## other notes
 
 do not vibe code or cheat on your assignments. [see why here](https://htmx.org/essays/yes-and/).
