@@ -29,20 +29,4 @@ int main(){
     }
 
     printf("\n");
-
-    // to change values sequentially:
-    for (int i = 0; i < 3; i++){
-        for (int j = 0; j < 4; j++){
-            printf("enter value for [%d][%d]: ", i,j);
-            scanf("%d", &twodimarr[i][j]);
-        }
-    }
-
-    printf("\nnew array values:");
-
-    for (int i = 0; i < 3; i++){
-        for (int j = 0; j < 4; j++){
-            printf("twodimarr [%d][%d]: %d\n", i,j,twodimarr[i][j]);
-        }
-    }
 }
